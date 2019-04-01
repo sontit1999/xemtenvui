@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/gaixinh"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/name"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:hint="name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editTextNgaySinh"
+            android:padding="15dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="ngày sinh"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/editTextThangSinh"
+            android:padding="15dp"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+            android:hint="tháng sinh"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/editTextNamSinh"
+            android:padding="15dp"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+            android:hint="năm sinh"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+
+        android:id="@+id/buttonXemten"
+        android:background="#4F5D77B6"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:textAllCaps="true"
+        android:text="Xem tên"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:src="@drawable/laos"
+            android:layout_width="100dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:id="@+id/textviewTenLao"
+
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="25sp"
+            android:text="tên lào"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/hanquoc"
+            android:layout_width="100dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:id="@+id/textviewTenHan"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="25sp"
+            android:text="tên hàn quốc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/vietnam"
+            android:layout_width="100dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:id="@+id/textviewVietNam"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="25sp"
+            android:text="tên việt nam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
