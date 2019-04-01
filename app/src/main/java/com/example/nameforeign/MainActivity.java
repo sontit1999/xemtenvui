@@ -20,6 +20,7 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    Button sontit;
     EditText edtname,edtNgaySinh,edtThangSinh,edtNamSinh;
     Button btnXemTen;
     TextView txtTenLao,txtTenkorea,txtTenVietNam;
